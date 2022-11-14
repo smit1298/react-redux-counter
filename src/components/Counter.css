@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+
+}
+.counter {
+    margin: 10rem auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.digits {
+    font-size: 12rem;
+    margin-bottom: 3rem;
+    color: orangered;
+}
+
+.btn {
+    width: 10rem;
+    background-color: black;
+    color: white;
+    padding:.6rem;
+    margin: 1rem;
+    border: none;
+
+
+
+}
+.btn:hover{
+   transform: scale(1.1);
+
+}
+
