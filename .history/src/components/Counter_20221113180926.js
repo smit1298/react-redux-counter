@@ -12,13 +12,14 @@ const Counter = () => {
 	return (
 		<div className="container">
 			<div className="counter">
+				<div className="digits">{count}</div>
 				<div className="console">
 					<button
 						className="btn"
 						onClick={()=> dispatch(decrement())}>
 						Reduce Number
 					</button>
-					Count is {count}
+					This is {count}
 					<button
 						className="btn"
 						onClick={()=> dispatch(increment())}>

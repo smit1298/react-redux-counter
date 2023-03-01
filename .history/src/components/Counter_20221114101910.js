@@ -18,7 +18,7 @@ const Counter = () => {
 						onClick={()=> dispatch(decrement())}>
 						Reduce Number
 					</button>
-					Count is {count}
+					This is {count}
 					<button
 						className="btn"
 						onClick={()=> dispatch(increment())}>
